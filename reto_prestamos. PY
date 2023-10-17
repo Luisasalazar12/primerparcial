@@ -1,0 +1,14 @@
+def evaluar_prestamo(monto_solicitado, tasa_interes,plazo_solicitado):
+  if tasa_interes <=5 y plazo_anios <=5:
+  return monto_solicitado * tasa_interes / 100 *
+  plazo_anios 
+  print("el prestamo es de alto riesgo.")
+else:
+return monto_solicitado * tasa_interes / 100 *
+plazo_anios
+print("el prestamo es de bajo riesgo")
+float(input("cantidad del prestamo:"))
+tasa_interes = float(input("tasa de interes:"))
+plazo_anios = float(input("plazo en anios:"))
+print("el prestamo es de:",
+      evaluar_prestamo(monto_solicitado,
